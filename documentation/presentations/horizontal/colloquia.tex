@@ -1,0 +1,91 @@
+% TU Delft beamer template
+% Author: Erwin Walraven (initial version was created by Maarten Abbink)
+% Delft Universiy of Technology
+
+\documentclass{beamer}
+\usepackage[english]{babel}
+\usepackage{calc}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{comment}
+\usepackage{MnSymbol,wasysym}
+
+\setbeamertemplate{navigation symbols}{} % remove navigation symbols
+\mode<presentation>{\usetheme{tud}}
+
+% BIB SETTINGS
+\usepackage[backend=bibtex,firstinits=true,maxnames=30,maxcitenames=20,url=false,style=authoryear]{biblatex}
+\bibliography{bibfile}
+\setlength\bibitemsep{0.3cm} % space between entries in the reference list
+\renewcommand{\bibfont}{\normalfont\scriptsize}
+\setbeamerfont{footnote}{size=\tiny}
+\renewcommand{\cite}[1]{\footnote<.->[frame]{\fullcite{#1}}}
+
+
+\title[]{Semantic Mapping for Search and Rescue}
+\institute[]{Delft University of Technology, The Netherlands}
+\author{Wouter Meijer}
+%\date{}
+
+\begin{document}
+{
+\setbeamertemplate{footline}{\usebeamertemplate*{minimal footline}}
+\frame{\titlepage}
+}
+
+{\setbeamertemplate{footline}{\usebeamertemplate*{minimal footline}}
+
+}
+
+\begin{frame}{Overview}
+    \begin{block}{}
+        \begin{itemize}
+        \item What is Semantic Mapping?
+        \item What is neccesary for a Search and Rescue Mission?
+        \item Identified Opportunities
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}{The General Picture}
+    Its difficult to get insights in the state of  a search and rescue mission.
+\end{frame}
+
+
+\begin{frame}{Methods for Semantic Mapping}
+    This is the first frame
+\end{frame}
+
+
+\begin{frame}{Semantic Maps for Robot Navigation}
+    This is the first frame
+\end{frame}
+
+
+\begin{frame}{Integration of Semantic Maps for Search-and-Rescue Missions}
+    \begin{block}{}
+        \begin{itemize}
+        \item Exploration
+        \item Use of semantic maps to asses victim wellbeing
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\begin{frame}{Conclusion}
+    
+\end{frame}
+
+\begin{frame}{Research Proposal}
+    
+\end{frame}
+
+
+
+\end{document}
